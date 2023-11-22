@@ -1,0 +1,16 @@
+# pandas is a powerful data manipulation library for Python
+# Used for handling Excel data in the currency conversion script
+# pandas==<2.1.3>
+
+# forex-python is a library for fetching exchange rates from fixer.io that gets data from free API of European Central Bank
+# It provides daily updated exchange rates and is used for currency conversion
+# forex-python==<1.6>
+
+# openpyxl is a library for reading and writing Excel files in Python
+# Required for saving the currency conversion results to a new Excel file
+# openpyxl==<3.1.2>
+
+
+pip install --user pandas
+pip install --user forex-python
+pip install --user openpyxl
